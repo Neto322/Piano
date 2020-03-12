@@ -5,21 +5,36 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PiaNO"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="663.686">
+        Title="MainWindow" Height="450" Width="584.686">
     <Grid>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Height="399" BorderBrush="Black" Background="White" Foreground="Black" FontFamily="Wide Latin" />
-        <Button Content="Button" HorizontalAlignment="Left" Margin="90,10,0,0" VerticalAlignment="Top" Width="75" Height="399" BorderBrush="Black" Background="White" Foreground="Black" FontFamily="Wide Latin" />
-        <Button Content="Button" HorizontalAlignment="Left" Margin="170,10,0,0" VerticalAlignment="Top" Width="75" Height="399" BorderBrush="Black" Background="White" Foreground="Black" FontFamily="Wide Latin" />
-        <Button Content="Button" HorizontalAlignment="Left" Margin="250,10,0,0" VerticalAlignment="Top" Width="75" Height="399" BorderBrush="Black" Background="White" Foreground="Black" FontFamily="Wide Latin"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="330,10,0,0" VerticalAlignment="Top" Width="75" Height="399" BorderBrush="Black" Background="White" Foreground="Black" FontFamily="Wide Latin" />
-        <Button Content="Button" HorizontalAlignment="Left" Margin="410,10,0,0" VerticalAlignment="Top" Width="75" Height="399" BorderBrush="Black" Background="White" Foreground="Black" FontFamily="Wide Latin" />
-        <Button Content="Button" HorizontalAlignment="Left" Margin="490,10,0,0" VerticalAlignment="Top" Width="75" Height="399" BorderBrush="Black" Background="White" Foreground="Black" FontFamily="Wide Latin" />
-        <Button Content="Button" HorizontalAlignment="Left" Margin="570,10,0,0" VerticalAlignment="Top" Width="75" Height="399" BorderBrush="Black" Background="White" Foreground="Black" FontFamily="Wide Latin" />
-        <Button Content="Button" HorizontalAlignment="Left" Margin="52,10,0,0" VerticalAlignment="Top" Width="75" Height="204" BorderBrush="Black" Background="Black" Foreground="White" FontFamily="Wide Latin"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="147,10,0,0" VerticalAlignment="Top" Width="75" Height="204" BorderBrush="Black" Background="Black" Foreground="White" FontFamily="Wide Latin"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="300,10,0,0" VerticalAlignment="Top" Width="75" Height="204" BorderBrush="Black" Background="Black" Foreground="White" FontFamily="Wide Latin" />
-        <Button Content="Button" HorizontalAlignment="Left" Margin="380,10,0,0" VerticalAlignment="Top" Width="75" Height="204" BorderBrush="Black" Background="Black" Foreground="White" FontFamily="Wide Latin" />
-        <Button Content="Button" HorizontalAlignment="Left" Margin="460,10,0,0" VerticalAlignment="Top" Width="75" Height="204" BorderBrush="Black" Background="Black" Foreground="White" FontFamily="Wide Latin"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="355*"/>
+            <RowDefinition Height="64*"/>
+        </Grid.RowDefinitions>
+        <Button Content="" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Height="399" BorderBrush="Black" Background="White" Foreground="Black" FontFamily="Wide Latin" Grid.RowSpan="2" Click="Button_Click" />
+        <Button Content="" HorizontalAlignment="Left" Margin="90,10,0,0" VerticalAlignment="Top" Width="75" Height="399" BorderBrush="Black" Background="White" Foreground="Black" FontFamily="Wide Latin" Grid.RowSpan="2" />
+        <Button Content="" HorizontalAlignment="Left" Margin="170,10,0,0" VerticalAlignment="Top" Width="75" Height="399" BorderBrush="Black" Background="White" Foreground="Black" FontFamily="Wide Latin" Grid.RowSpan="2" />
+        <Button Content="" HorizontalAlignment="Left" Margin="250,10,0,0" VerticalAlignment="Top" Width="75" Height="399" BorderBrush="Black" Background="White" Foreground="Black" FontFamily="Wide Latin" Grid.RowSpan="2"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="330,10,0,0" VerticalAlignment="Top" Width="75" Height="399" BorderBrush="Black" Background="White" Foreground="Black" FontFamily="Wide Latin" Grid.RowSpan="2" />
+        <Button Content="" HorizontalAlignment="Left" Margin="410,10,0,0" VerticalAlignment="Top" Width="75" Height="399" BorderBrush="Black" Background="White" Foreground="Black" FontFamily="Wide Latin" Grid.RowSpan="2" />
+        <Button Content="" HorizontalAlignment="Left" Margin="490,10,0,0" VerticalAlignment="Top" Width="75" Height="399" BorderBrush="Black" Background="White" Foreground="Black" FontFamily="Wide Latin" Grid.RowSpan="2" />
+        <Button Content="" HorizontalAlignment="Left" Margin="52,10,0,0" VerticalAlignment="Top" Width="75" Height="204" BorderBrush="Black" Background="Black" Foreground="White" FontFamily="Wide Latin"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="147,10,0,0" VerticalAlignment="Top" Width="75" Height="204" BorderBrush="Black" Background="Black" Foreground="White" FontFamily="Wide Latin"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="300,10,0,0" VerticalAlignment="Top" Width="75" Height="204" BorderBrush="Black" Background="Black" Foreground="White" FontFamily="Wide Latin" />
+        <Button Content="" HorizontalAlignment="Left" Margin="380,10,0,0" VerticalAlignment="Top" Width="75" Height="204" BorderBrush="Black" Background="Black" Foreground="White" FontFamily="Wide Latin" />
+        <Button Content="" HorizontalAlignment="Left" Margin="460,10,0,0" VerticalAlignment="Top" Width="75" Height="204" BorderBrush="Black" Background="Black" Foreground="White" FontFamily="Wide Latin"/>
+        <Label Content="C" HorizontalAlignment="Left" Margin="27,335,0,0" VerticalAlignment="Top" FontFamily="Impact" Height="51" Width="33" FontSize="22" Grid.RowSpan="2"/>
+        <Label Content="D" HorizontalAlignment="Left" Margin="113,335,0,0" VerticalAlignment="Top" FontFamily="Impact" Height="51" Width="26" FontSize="22" Grid.RowSpan="2"/>
+        <Label Content="E" HorizontalAlignment="Left" Margin="190,335,0,0" VerticalAlignment="Top" FontFamily="Impact" Height="51" Width="32" FontSize="22" Grid.RowSpan="2"/>
+        <Label Content="F" HorizontalAlignment="Left" Margin="279,335,0,0" VerticalAlignment="Top" FontFamily="Impact" Height="51" Width="46" FontSize="22" Grid.RowSpan="2"/>
+        <Label Content="G" HorizontalAlignment="Left" Margin="364,335,0,0" VerticalAlignment="Top" FontFamily="Impact" Height="51" Width="32" FontSize="22" Grid.RowSpan="2"/>
+        <Label Content="A" HorizontalAlignment="Left" Margin="442,335,0,0" VerticalAlignment="Top" FontFamily="Impact" Height="51" Width="31" FontSize="22" Grid.RowSpan="2"/>
+        <Label Content="B" HorizontalAlignment="Left" Margin="525,335,0,0" VerticalAlignment="Top" FontFamily="Impact" Height="51" Width="27" FontSize="22" Grid.RowSpan="2"/>
+        <Label Content="C" HorizontalAlignment="Left" Margin="72,163,0,0" VerticalAlignment="Top" FontFamily="Impact" Height="51" Width="33" FontSize="22" Foreground="White"/>
+        <Label Content="D" HorizontalAlignment="Left" Margin="170,163,0,0" VerticalAlignment="Top" FontFamily="Impact" Height="51" Width="33" FontSize="22" Foreground="White"/>
+        <Label Content="F" HorizontalAlignment="Left" Margin="325,163,0,0" VerticalAlignment="Top" FontFamily="Impact" Height="51" Width="33" FontSize="22" Foreground="White"/>
+        <Label Content="A" HorizontalAlignment="Left" Margin="490,163,0,0" VerticalAlignment="Top" FontFamily="Impact" Height="51" Width="33" FontSize="22" Foreground="White"/>
+        <Label Content="G" HorizontalAlignment="Left" Margin="405,163,0,0" VerticalAlignment="Top" FontFamily="Impact" Height="51" Width="33" FontSize="22" Foreground="White"/>
 
     </Grid>
 </Window>
